@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background:rgb(rgb(65, 157, 231))
+  }
+    .box{
+      width: 500px;
+      height: 350px;
+      left: 50%;
+      top: 30%;
+      background:#fff;
+      margin: 0 auto;
+  }
+  .container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  
+  .btn{
+    border: none;
+    margin: 20px;
+    padding: 24px;
+    width: 220px;
+    font-family: "montserrat",sans-serif;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    transition: 0.6s;
+  }
+  
+  .btn1{
+    background-image: linear-gradient(to left,#12CBC4,#0652DD,#12CBC4);
+  }
+  
+  .btn:hover{
+    background-position: right;
+  }
+  @media screen and (max-width:680px){
+
+    #maincontent{
+      width: auto;
+      float: none;
+    }
+    #sidebar{
+      width: auto;
+      float: none;
+    }
+  }
+  
